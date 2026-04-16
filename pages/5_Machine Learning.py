@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(layout="wide")
 df = pd.read_csv("training_score.csv", sep = ';')
 num_cols = df.select_dtypes(include='float64').columns
 models_linear = ["Linear Regression", "Ridge Default", "Lasso Default", "ElasticNet Default"]
