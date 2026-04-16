@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.title("Introduction")
 st.write("### Introduction and Context")
 
 st.markdown("""
