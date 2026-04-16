@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(layout="wide")
 st.title("Introduction")
 st.write("### Introduction and Context")
 
